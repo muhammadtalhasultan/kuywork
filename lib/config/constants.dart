@@ -15,8 +15,16 @@ const Color kLightFillColor = Color(0xFFF4F3F8);
 const Color kDarkFillColor = Color(0xFF1A1A1A);
 const Color whiteColor= Color(0xFFFFFFFF);
 const Color accentColor= Color(0xFFFFB74D);
-const Color bodyTextColor= Color(0xFF696969);
+const Color kLightBodyTextColor= Color(0xFF696969);
+const Color kDarkBodyTextColor= Color(0xFFF5F5F5);
 
 final kBorder = OutlineInputBorder(
     borderRadius: BorderRadius.circular(10.r),
     borderSide: const BorderSide(color: Colors.transparent, width: 0));
+
+
+   bool status= false;
+    saveUnsave(bool status){
+        status= !status;
+    }
+    

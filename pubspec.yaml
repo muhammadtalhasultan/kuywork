@@ -31,9 +31,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
-  flutter_screenutil: 
-  google_fonts:
-  flutter_svg:
+  flutter_screenutil: null
+  flutter_svg: null
+  google_fonts: null
   toggle_switch: ^2.1.0
 
 dev_dependencies:

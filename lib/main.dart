@@ -8,12 +8,9 @@ import 'config/light_theme.dart';
 
 void main() {
   runApp(const MyApp());
-  SystemChrome.setSystemUIOverlayStyle(
-    const SystemUiOverlayStyle(
+  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
       statusBarColor: Colors.transparent,
-      systemNavigationBarColor: Colors.transparent,
-    ),
-  );
+      systemNavigationBarColor: Colors.transparent));
 }
 
 class MyApp extends StatelessWidget {

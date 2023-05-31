@@ -86,7 +86,9 @@ class _DetailPageState extends State<DetailPage> {
                       style: Theme.of(context)
                           .textTheme
                           .headlineSmall!
-                          .copyWith(fontWeight: FontWeight.w400)),
+                          .copyWith(
+                              fontWeight: FontWeight.w400,
+                              color: kLightPrimaryColor)),
                   SizedBox(
                     height: 20.h,
                   ),
@@ -113,6 +115,7 @@ class _DetailPageState extends State<DetailPage> {
                       minHeight: 45.h,
                       fontSize: 14.sp,
                       initialLabelIndex: 1,
+                      radiusStyle: true,
                       activeBgColor: const [accentColor],
                       activeFgColor: Theme.of(context).primaryColor,
                       inactiveBgColor: Colors.transparent,

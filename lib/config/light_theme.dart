@@ -108,7 +108,7 @@ ThemeData lightTheme = ThemeData(
     titleSmall: GoogleFonts.poppins(
       fontSize: 13.sp,
       fontWeight: FontWeight.w400,
-      color: bodyTextColor,
+      color: kLightBodyTextColor,
     ),
   ),
 );

@@ -1,1 +1,1 @@
-![image](https://github.com/talhasultan-dev/kuywork/assets/31367048/88a8d282-dbc5-4d62-aac2-7591632d126d)
+![image](https://github.com/talhasultan-dev/kuywork/assets/31367048/d4e5b3e6-83aa-4897-8467-10add97f3988)
